@@ -5,6 +5,8 @@ on:
   push:
     paths-ignore:
       - '.github/workflows/**'
+  workflow_dispatch:
+    inputs: {}
 
 jobs:
   chromatic:
