@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "storybook": "ng run angular-latest:storybook",
     "build-storybook": "ng run angular-latest:build-storybook",
-    "chromatic": "npx chromatic --project-token=e9017e5cbf71"
+    "chromatic": "npx chromatic --debug --project-token=e9017e5cbf71"
   },
   "private": true,
   "dependencies": {
