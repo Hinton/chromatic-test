@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "storybook": "ng run angular-latest:storybook",
-    "build-storybook": "ng run angular-latest:build-storybook"
+    "build-storybook": "ng run angular-latest:build-storybook",
+    "chromatic": "npx chromatic --project-token=e9017e5cbf71"
   },
   "private": true,
   "dependencies": {
@@ -134,5 +135,7 @@
     "@storybook/web-components-webpack5": "7.0.7",
     "sb": "7.0.7",
     "storybook": "7.0.7"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "angular-latest@0.0.0"
 }
